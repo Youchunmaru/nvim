@@ -136,6 +136,10 @@ return {
         stylua = {}, -- Used to format Lua code
 
         -- Special Lua Config, as recommended by neovim help docs
+        ts_ls = {},
+        --
+        java_language_server = {},
+
         lua_ls = {
           on_init = function(client)
             if client.workspace_folders then
